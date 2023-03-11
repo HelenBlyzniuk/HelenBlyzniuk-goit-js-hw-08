@@ -43,7 +43,7 @@ galleryListEl.append(...galleryElements);
 
 function onGalleryListElClick(e) {
   
-    e.preventDefault();
+    
     
     if (e.target.nodeName !== "IMG") {
         return
